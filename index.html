@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rinterio</title>
+    <link rel="shortcut icon" href="assets/banner.png" type="image/x-icon" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
@@ -24,6 +25,7 @@
   </head>
   <body class="font-manrope">
     <main>
+      <!-- Hero Banner Section -->
       <section class="bg-gray-100/70">
         <nav class="w-11/12 md:w-10/12 max-w-7xl mx-auto py-10">
           <div class="flex justify-between items-center">
@@ -54,45 +56,40 @@
               </li>
             </ul>
 
-            
             <div class="flex gap-5">
-                <div class="hidden md:flex items-center gap-3">
-                  <div
-                    class="bg-white cursor-pointer border border-gray-200 w-10 h-10 text-center rounded-full p-3 text-lg flex justify-center items-center"
-                  >
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                  </div>
-                  <div
-                    class="bg-white cursor-pointer border border-gray-200 w-10 h-10 text-center rounded-full p-3 text-lg flex justify-center items-center"
-                  >
-                    <i class="fa-solid fa-cart-shopping"></i>
-                  </div>
-                  <div
-                    class="bg-lime-400 cursor-pointer text-black text-lg font-extrabold w-full md:w-fit mx-auto px-5 py-2 rounded-full flex justify-center items-center gap-2"
-                  >
-                    Book Consult
-                    <div
-                      class="bg-black text-white p-2 w-8 h-8 text-sm flex justify-center items-center text-center rounded-full"
-                    >
-                      <i class="fa-solid fa-arrow-right -rotate-45"></i>
-                    </div>
-                  </div>
-                </div>
-
+              <div class="hidden md:flex items-center gap-3">
                 <div
-                  class="bg-white xl:hidden border border-gray-200 rounded-full p-2.5 w-14 text-center text-2xl"
+                  class="bg-white cursor-pointer border border-gray-200 w-10 h-10 text-center rounded-full p-3 text-lg flex justify-center items-center"
                 >
-                  <i class="fa-solid fa-bars"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
+                <div
+                  class="bg-white cursor-pointer border border-gray-200 w-10 h-10 text-center rounded-full p-3 text-lg flex justify-center items-center"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div
+                  class="bg-lime-400 cursor-pointer text-black text-lg font-extrabold w-full md:w-fit mx-auto px-5 py-2 rounded-full flex justify-center items-center gap-2"
+                >
+                  Book Consult
+                  <div
+                    class="bg-black text-white p-2 w-8 h-8 text-sm flex justify-center items-center text-center rounded-full"
+                  >
+                    <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                  </div>
+                </div>
+              </div>
 
+              <div
+                class="bg-white xl:hidden border border-gray-200 rounded-full p-2.5 w-14 text-center text-2xl"
+              >
+                <i class="fa-solid fa-bars"></i>
+              </div>
             </div>
           </div>
         </nav>
         <div class="pb-8 md:pb-14 lg:pb-20 max-w-7xl mx-auto">
-          <img
-            src="assets/banner.png"
-            class="w-9/12 md:w-5/12 mx-auto"
-          />
+          <img src="assets/banner.png" class="w-9/12 md:w-5/12 mx-auto" />
           <div class="w-11/12 md:w-full lg:w-9/12 mx-auto">
             <h2
               class="text-3xl md:text-6xl md:w-10/12 md:mx-auto my-2 text-center font-extrabold"
@@ -113,6 +110,97 @@
                 src="assets/arrow-up.svg"
                 class="h-8 bg-lime-500/50 rounded-full p-1"
               />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Us Section -->
+      <section className=" bg-gray-200/60 bg-red-600">
+        <div
+          class="w-11/12 lg:w-10/12 max-w-7xl mx-auto py-10 pb-1 md:py-15 lg:py-20 lg:pb-2 lg:pt-24"
+        >
+          <div className="flex flex-col xl:flex-row gap-8">
+            <div className="relative">
+              <img
+                src="assets/Vector.png"
+                className="absolute hidden xl:block -top-16 -left-12"
+              />
+              <div
+                class="bg-white text-black text-lg lg:text-xl cursor-pointer font-extrabold w-fit mx-auto xl:mx-0 px-3 py-2 rounded-full flex gap-2 justify-center items-center"
+              >
+              <i class="fa-solid fa-arrow-right"></i>
+                About Us
+              </div>
+              <div className="flex flex-col items-center lg:items-start">
+                <h2
+                  className="text-3xl xl:text-5xl text-center xl:text-start font-extrabold md:w-11/12 my-6"
+                >
+                  We design thoughtful, liveable spaces
+                </h2>
+                <p className="text-lg mb-3 text-center xl:text-left">
+                  The barn house captivates with its blend of rustic charm and
+                  modern sophistication, featuring weathered wood, sleek metal
+                  accents.
+                </p>
+                <div
+                  className="flex flex-col w-full md:flex-row lg:flex-col gap-3"
+                >
+                  <div
+                    className="flex gap-5 my-3 bg-white p-8 md:py-4 lg:py-8 mt-6 rounded-2xl"
+                  >
+                    <img className="h-fit" src="assets/commercial.png" />
+                    <div>
+                      <h3 className="mt-2 text-xl font-bold">Commercial</h3>
+                      <p className="md:text-lg leading-6 mt-2">
+                        The barn house captivates with its blend of rustic charm
+                        and modern.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    className="flex gap-5 my-3 bg-white p-8 md:py-4 lg:py-8 mt-3 rounded-2xl"
+                  >
+                    <img className="h-fit" src="assets/residential.png" />
+                    <div>
+                      <h3 className="text-xl font-bold">Residential</h3>
+                      <p className="md:text-lg leading-6 mt-2">
+                        The barn house captivates with its blend of rustic charm
+                        and modern.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              src="assets/Rectangle.png"
+              className="max-h-72 xl:max-h-max object-cover rounded-2xl"
+            />
+          </div>
+
+          <div
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-0 justify-around bg-white rounded-3xl p-16 py-12 my-20"
+          >
+            <div className="flex flex-col gap-2 items-center">
+              <img className="h-10 w-10" src="assets/review.png" />
+              <h3 className="text-3xl font-bold">235+</h3>
+              <p className="text-sm">Happy Client Review</p>
+            </div>
+            <div className="flex flex-col gap-2 items-center">
+              <img className="h-10 w-10" src="assets/departement.png" />
+              <h3 className="text-3xl font-bold">50+</h3>
+              <p className="text-sm">Work Departments</p>
+            </div>
+            <div className="flex flex-col gap-2 items-center">
+              <img className="h-10 w-10" src="assets/user-group.png" />
+              <h3 className="text-3xl font-bold">30k+</h3>
+              <p className="text-sm">Our Happy Client</p>
+            </div>
+            <div className="flex flex-col gap-2 items-center">
+              <img className="h-10 w-10" src="assets/user-multiple.png" />
+              <h3 className="text-3xl font-bold">307+</h3>
+              <p className="text-sm">Staff Members</p>
             </div>
           </div>
         </div>
