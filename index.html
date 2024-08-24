@@ -1,17 +1,115 @@
 <!DOCTYPE html>
-<html  data-theme="light" lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html data-theme="light" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cf0440fecc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="font-manrope">
+    <main>
+      <section class="bg-gray-100/70">
+        <nav class="w-11/12 md:w-10/12 max-w-7xl mx-auto py-10">
+          <div class="flex justify-between items-center">
+            <div class="flex gap-2 items-center">
+              <div
+                class="bg-lime-400 rounded-full p-1 text-lg w-8 h-8 flex justify-center items-center"
+              >
+                <img src="/B10-Assignment-03/assets/arrow-up.svg" />
+              </div>
+              <strong class="text-4xl">Rinterio</strong>
+            </div>
+            <div
+              class="bg-white md:hidden border border-gray-200 rounded-full p-2.5 w-14 text-center text-2xl"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </div>
 
-    <h1>Hello world</h1>
-    <button className="btn">Button</button>
-    
-</body>
+            <ul class="hidden xl:flex gap-8 text-gray-400/70 items-center">
+              <li class="text-black font-bold">
+                <a href="#">Home</a>
+              </li>
+              <li class="hover:font-bold">
+                <a href="#">Services</a>
+              </li>
+              <li class="hover:font-bold">
+                <a href="#">Portfolio</a>
+              </li>
+              <li class="hover:font-bold">
+                <a href="#">Blogs</a>
+              </li>
+              <li class="hover:font-bold">
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+
+            <div class="hidden md:flex items-center gap-3">
+              <div
+                class="bg-white cursor-pointer border border-gray-200 w-14 text-center rounded-full p-3 text-2xl"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <div
+                class="bg-white cursor-pointer border border-gray-200 w-14 text-center rounded-full p-3 text-2xl"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              <div
+                class="bg-lime-400 cursor-pointer text-black text-lg font-extrabold w-full md:w-fit mx-auto px-5 py-2 rounded-full flex justify-center items-center gap-2"
+              >
+                Book Consult
+                <div class="bg-black text-white p-2 w-10 h-10 text-center rounded-full">
+                    <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="pb-8 md:pb-14 lg:pb-20 max-w-7xl mx-auto">
+          <img
+            src="/B10-Assignment-03/assets/banner.png"
+            class="w-9/12 md:w-5/12 mx-auto"
+          />
+          <div class="w-11/12 md:w-full lg:w-9/12 mx-auto">
+            <h2
+              class="text-3xl md:text-6xl md:w-10/12 md:mx-auto my-2 text-center font-extrabold"
+            >
+              A barn house of this design has a striking appearance
+            </h2>
+            <p class="text-[16px] md:w-4/6 mx-auto text-center my-8">
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents, and large windows that flood the space with natural
+              light.
+            </p>
+            <div
+              class="bg-lime-400/50 text-black text-lg lg:text-xl cursor-pointer font-extrabold w-full md:w-fit mx-auto px-5 py-2.5 rounded-full flex justify-center items-center gap-2"
+            >
+              View Details
+              <img
+                src="/B10-Assignment-03/assets/arrow-up.svg"
+                class="h-8 bg-lime-500/50 rounded-full p-1"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
