@@ -15,16 +15,16 @@ This project showcases a visually captivating and responsive front-end design fo
 ## 🚀 How to Use
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/mdashik-dev/responsive-website-with-tailwind.git
+   git clone https://github.com/mdashik-dev/Rinterio.git
 1. Clone this repository:  
    ```bash
-   cd responsive-website-with-tailwind
+   cd Rinterio
 
 ## 🌟 Live Demo
-Check out the [live version here.](https://mdashik-dev.github.io/responsive-website-with-tailwind/)
+Check out the [live version here.](https://mdashik-dev.github.io/Rinterio/)
 
 ## 📷 Preview
-![](https://raw.githubusercontent.com/mdashik-dev/responsive-website-with-tailwind/refs/heads/main/Hero.png)
+![](https://raw.githubusercontent.com/mdashik-dev/Rinterio/refs/heads/main/Hero.png)
 
 ### 🤝 Contributing
 Contributions are welcome! Feel free to fork this repository and submit a pull request with your improvements.
